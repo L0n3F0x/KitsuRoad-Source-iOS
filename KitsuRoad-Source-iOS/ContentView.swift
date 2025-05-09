@@ -2,14 +2,14 @@
 //  ContentView.swift
 //  KitsuRoad-Source-iOS
 //
-//  Created by Enanan on 28/02/25.
+//  Created by a l0n3f0x on 28/02/25.
 //
 
 import SwiftUI
 import MapKit
 
 struct KitsuRoadMarker: Identifiable, Codable {
-    let id = UUID()
+    var id = UUID()
     let latitude: Double
     let longitude: Double
     let title: String
